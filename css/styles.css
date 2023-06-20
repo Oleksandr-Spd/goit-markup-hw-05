@@ -517,8 +517,10 @@ input {
 }
 
 .footer-form {
+  gap: 24px;
 }
 .foter-input-wrap {
+  margin-bottom: 8px;
 }
 .subscribe-form {
   display: flex;
@@ -719,6 +721,14 @@ input {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   color: var(--valhalla-color);
+}
+
+.form-block {
+  position: relative;
+}
+
+.form-textarea {
+  margin-bottom: 16px;
 }
 
 .modal-input {
