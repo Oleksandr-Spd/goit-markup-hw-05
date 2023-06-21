@@ -535,7 +535,7 @@ input {
   background-color: transparent;
   color: var(--white-color);
   padding: 8px 16px;
-  margin-right: 24px;
+
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -863,6 +863,10 @@ input {
   background-color: var(--free-speech-blue);
   border: none;
   fill: var(--ghost-white-color);
+}
+
+.input-check:focus + .check-text > span {
+  border-color: var(--royal-blue-color);
 }
 
 .check-icons {
